@@ -1,3 +1,8 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
 #skin{
 	width:700px;
 	border:3px dotted steelblue ;
@@ -8,42 +13,69 @@
 }
 
 #buttons{
-	border:1px solid red ;
+	/*border:1px solid red ;*/
+	width:400px;
+	float:left;
+	margin-top:10px;
 	
 }
 button{
 	font:bold 15px Comic Sans MS;
 	width:70px;
 	height:25px;
-	border:1px solid red ;
+	border:2px solid #aaa ;
+	background:#fff;
 	border-radius:20px;
 }
 #defultBar{
-	border:1px solid red ;
-	border-radius:10px;
+	border:1px solid #003300 ;
+	background:#fff;
+	border-radius:30px;
 	height:16px;
 	padding:2px;
 	width:500px;
+	float:left;
 	
 }
 #progressBar{
 	/*border:1px solid red ;*/
-	border-radius:10px;
+	border-radius:30px;
 	height:16px;
 	width:0px;
-	background:orange;
+	background:steelblue;
 
 }
-#vol{
-	width:60px;
-	border:1px solid red ;
-	font:20px Tahoma;
-	color:red;
 
-}
 #timeDisplay{
-	width:60px;
-	border:1px solid red ;
-	font:20px Tahoma;
+	width:100px;
+	/*border:1px solid red ;*/
+	font:16px Adobe Caslon Pro;
+	color:#000;
+	float:left;
+}
+#volDisplay{
+	width:100px;
+	/*border:1px solid red ;*/
+	font:16px Tahoma;
+	margin-top:10px;
 	color:red;
+	float:left;
+}
+
+.shadow{
+	box-shadow:rgba(110,110,250,0.7)3px 4px 10px;
+	
+}
+article{
+	/*border:1px solid red ;*/
+	width:620px;
+}
+.position{
+	position:relative;
+	left:50px;
+}
+section{
+	/*border:1px solid red ;*/
+	position:relative;
+	left:50px;
 }

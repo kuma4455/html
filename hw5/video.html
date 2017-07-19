@@ -8,25 +8,36 @@
 </head>
 <body>	
 		<div id="skin">
-			<video id="myVideo" width="640">
-				<source src="movies/videoplayback.mp4">
+			<video id="myVideo" width="640" >
+				<source src="C:\Users\PC-26\Desktop\movies\videoplayback.mp4"  volume="0.3">
 			</video>
 			<section>
-				<div id="buttons">
-					<button id="playButton">Play</button>
-					<button id="stopButton">STOP</button>
-					<button id="vol_Up">UP</button>
-					<button id="vol_Down">DOWN</button>
-					<button id="muteButton">Muted</button>
-					<div id=volDisplay>音量: 100%</div>
+					<article class="position";>
+						<div id="buttons">
+							<button id="playButton" class="shadow";>Play</button>
+							<button id="stopButton" class="shadow";>STOP</button>
+							<button id="vol_Up" class="shadow";>UP</button>
+							<button id="vol_Down" class="shadow";>DOWN</button>
+							<button id="muteButton" class="shadow";>Muted</button>
 
-				</div>
-				<div id="defultBar">
-					<div id="progressBar">
-					<div id="timeDisplay">00:00</div>
-					</div>
-				</div>
+						</div>
+
+						<div id=volDisplay><!-- 音量: 100% --></div>
+							<div style="clear:both;"></div>
+					</article>
+				
+				<br>
+					<article>
+						<div id="defultBar" class="shadow";>
+							<div id="progressBar" class="shadow";></div>
+						</div>
+						<div id="timeDisplay"><!-- 0:0 / 5:40 --></div>
+						<div style="clear:both;"></div>
+					</article>
+				
 			</section>
+
+
 		</div>
 
 		
