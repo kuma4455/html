@@ -1,0 +1,49 @@
+#skin{
+	width:700px;
+	border:3px dotted steelblue ;
+	border-radius:10px;
+	text-align:center;
+	margin:50px auto;
+	padding:10px 0px;
+}
+
+#buttons{
+	border:1px solid red ;
+	
+}
+button{
+	font:bold 15px Comic Sans MS;
+	width:70px;
+	height:25px;
+	border:1px solid red ;
+	border-radius:20px;
+}
+#defultBar{
+	border:1px solid red ;
+	border-radius:10px;
+	height:16px;
+	padding:2px;
+	width:500px;
+	
+}
+#progressBar{
+	/*border:1px solid red ;*/
+	border-radius:10px;
+	height:16px;
+	width:0px;
+	background:orange;
+
+}
+#vol{
+	width:60px;
+	border:1px solid red ;
+	font:20px Tahoma;
+	color:red;
+
+}
+#timeDisplay{
+	width:60px;
+	border:1px solid red ;
+	font:20px Tahoma;
+	color:red;
+}
